@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Header */
+
+header {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    height: 70%;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    gap: 250px;
+}
+
+.navbar-list {
+    gap: 40px;
+}
+
+.navbar-list a {
+    color: black;
+}
+
+.shopping-bag-icon {
+    height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Hero */
