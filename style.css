@@ -80,7 +80,8 @@ header {
 }
 
 .hero-info p {
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 15px;
     width: 70%;
     display: flex;
     justify-content: center;
@@ -91,9 +92,49 @@ header {
     color: white;
     background-color: black;
     width: 100px;
-    padding: 8px 2px;
+    padding: 8px 0px;
     text-align: center;
     border-radius: 2px; 
     cursor: pointer;
 }
 
+.hero-card img {
+    width: 400px;
+}
+
+/* About */
+
+#about {
+    margin-top: 50px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.about-info h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-shadow: 1px 1px 2px #2d2d2d;
+    font-size: 28px;
+}
+
+.about-info p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 18px;
+    margin-top: 40px;
+}
