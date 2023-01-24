@@ -22,7 +22,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
-    background: linear-gradient(to top, #bc8f8f, #d87093);
+    background: linear-gradient(to top, #dfa1a1, #f19c93);
 }
 
 .logo {
@@ -91,17 +91,18 @@ header {
 
 .hero-button {
     color: white;
-    background: linear-gradient(to top, #bc8f8f, #d87093);
+    background: linear-gradient(to top, #dfa1a1, #f19c93);
     width: 100px;
     padding: 8px 0px;
     text-align: center;
-    border: #d87093;
+    border: #dfa1a1;
     cursor: pointer;
 }
 
 .hero-card img {
     width: 400px;
     border-style: dotted;
+    border-color: #f19c93;
 }
 
 /* About */
