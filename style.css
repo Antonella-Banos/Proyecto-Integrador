@@ -385,3 +385,48 @@ footer span {
 footer span > b {
     font-weight: 900;
 }
+
+/* Página de registro */
+
+#registro {
+    max-width: 1200px;
+    margin-top: 70px;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px; 
+    height: 400px;
+    background: whitesmoke;
+    border: 1px solid #f19c93;
+    gap: 20px;
+    margin-left: 300px;
+}
+
+.form-box h3 {
+    text-shadow: 1px 1px 2px #2d2d2d;
+}
+
+/* Página de Login */
+
+#login {
+    max-width: 1200px;
+    margin-top: 70px;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+}
