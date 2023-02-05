@@ -32,3 +32,11 @@
     transition: all 0.5s;
 }
 
+
+/* Productos */
+
+.rotate:hover {
+    transform: rotateY(90deg);
+    transition: 0.8s;
+}
+
