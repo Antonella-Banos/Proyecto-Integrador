@@ -431,3 +431,12 @@ footer span > b {
     width: 70%;
     gap: 10px;
 }
+
+/* Menú hamburguesa */
+/* Ocultar menú hamburguesa y checkbox */
+
+#menu-toggle, 
+.menu-label {
+    display: none;
+}
+
