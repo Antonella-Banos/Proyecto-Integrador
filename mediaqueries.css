@@ -1,0 +1,37 @@
+/* Tablet grande */
+
+@media (max-width: 1040px) {
+
+    .navbar {
+        gap: 10px;
+    }
+    
+    .navbar-list {
+       position: absolute;
+       top: 65px;
+       left: 5%;
+       right: 5%;
+       width: 90%;
+       flex-direction: column;
+       background-color: #dfa1a1;
+       border: 2px solid #f19c93;
+       border-top: 0px;
+       border-radius: 0px 0px 10px 10px;
+       align-items: flex-start;
+       padding: 45px 30px;
+       gap: 20px;
+       z-index: 2;
+       display: none;
+    }
+
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked + 
+    .navbar-list {
+        display: flex;
+    }
+}

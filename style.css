@@ -440,3 +440,13 @@ footer span > b {
     display: none;
 }
 
+.menu-icon {
+    height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.shopping-bag-icon {
+
+}
