@@ -1,6 +1,6 @@
 /* Tablet */
 
-@media (max-width: 1040px) {
+@media (max-width: 1100px) {
 
     .navbar {
         gap: 10px;
@@ -33,5 +33,175 @@
     #menu-toggle:checked + 
     .navbar-list {
         display: flex;
+    }
+
+    .form {
+        width: 30%;
+    }
+
+    .contact-map iframe {
+        width: 80%;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+
+    .hero-info h1 {
+        width: 30%;
+        font-size: 30px;
+        min-width: 400px;
+    }
+
+    .hero-card img {
+        width: 350px;
+    }
+
+    .products-container {
+        gap: 10px;
+    }
+
+    .clothing-item img {
+        width: 200px;
+    }
+
+    .clothing-item-title h3 {
+        font-size: 18px;
+    }
+
+    .newsletter-container {
+        width: 45%;
+        text-align: center;
+        justify-content: center;
+        margin-right: 50px;
+    }
+
+    .newsletter-container h3 {
+        font-size: 20px;
+    }
+
+    .newsletter-container p {
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .form input {
+        height: 25px;
+        width: 300px;
+    }
+
+    .form-box {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 780px) {
+
+    .hero-card img {
+        display: none;
+    }
+
+    #newsletter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #contact {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-map {
+        display: none;
+    }
+
+    .form-box {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right: 150px;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 570px) {
+
+    .logo {
+        height: 60%;
+    }
+
+    .shopping-bag-icon, 
+    .menu-icon {
+        height: 30px;
+        font-weight: 300;
+    }
+
+    .clothing-item img {
+        width: 400px;
+    }
+
+    .form-box h3 {
+        font-size: 25px;
+    }
+
+    .form label {
+        font-size: 16px;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 470px) {
+
+    .hero-info h1 {
+        margin-left: 20px;
+    }
+
+    .form-box {
+        width: 300px;
+        height: 400px;
+    }
+    
+    .form label {
+        font-size: 18px;
+    }
+
+    .form input {
+        height: 30px;
+        width: 200px;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 420px) {
+    
+    .hero-info {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-info h1 {
+        font-size: 25px;
+        margin-left: 110px;
+    }
+
+    .product-title h2,
+    .about-info h2,
+    .contact-info h3 {
+        font-size: 25px;
+    }
+
+    .clothing-item img {
+        width: 300px;
     }
 }
