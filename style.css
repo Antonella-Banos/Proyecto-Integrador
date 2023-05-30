@@ -418,6 +418,10 @@ footer span > b {
     text-shadow: 1px 1px 2px #2d2d2d;
 }
 
+.form input::placeholder {
+    padding-left: 8px;
+}
+
 /* Página de Login */
 
 #login {
