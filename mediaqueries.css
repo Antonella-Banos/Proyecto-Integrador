@@ -1,4 +1,33 @@
+/* Small desktop */
+
+@media (max-width: 1115px) {
+
+    .navbar {
+       display: flex;
+       align-items: center;
+       gap: 220px;
+    }
+
+    .navbar-list a {
+       font-size: 13px;
+       gap: 80px;
+    }
+
+    .navbar-list a:nth-child(6) 
+
+    .navbar-list {
+        display: flex;
+        align-items: center;
+        margin-left: 7rem;
+    }
+
+    .logo {
+        padding-right: 5.8rem;
+    }
+}
+
 /* Tablet */
+
 
 @media (max-width: 1100px) {
 
