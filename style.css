@@ -118,6 +118,11 @@ header {
     padding: 70px 0;
     max-width: 1200px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
 }
 
 .product-title h2 {
@@ -190,9 +195,11 @@ header {
     padding: 50px 0;
     max-width: 1200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .about-info {
@@ -234,7 +241,10 @@ header {
     max-width: 1200px;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
+    margin-left: 50px;
 }
 
 .newsletter-container {
@@ -303,6 +313,7 @@ header {
     flex-direction: row;
     justify-content: flex-start; 
     align-items: center;
+    margin-left: 50px;
     /* background: linear-gradient(to top, #dfa1a1, #f19c93); */
 }
 

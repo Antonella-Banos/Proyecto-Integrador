@@ -24,6 +24,62 @@
     .logo {
         padding-right: 5.8rem;
     }
+
+    .hero-info h1 {
+        font-size: 35px;
+    }
+
+    .hero-info p,
+    .hero-button {
+        margin-right: 3rem;
+    }
+    
+    .product-title {
+        margin-right: 6rem;
+    }
+
+    .products-container {
+        /* margin-right: 3rem; */
+    }
+
+    .about-info {
+        margin-right: 3rem;
+    }
+
+    #newsletter {
+        padding: 40px 0px;
+        margin: 10px 0px 0px 10px;
+        gap: 10px;
+    }
+
+    .newsletter-container {
+        margin-right: 3.5rem;
+        width: 45%;
+    }
+
+    .newsletter-container p {
+        margin-left: 3rem;
+    }
+
+    .form {
+        width: 40%;
+    }
+
+    .form input {
+        width: 300px;
+    }
+
+    #contact {
+       margin-right: 3rem;
+    }
+
+    .contact-info {
+        width: 45%;
+    }
+
+    .contact-map {
+        width: 45%;
+    }
 }
 
 /* Tablet */
