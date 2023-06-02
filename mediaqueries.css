@@ -206,12 +206,28 @@
         height: 30px;
         width: 200px;
     }
+
+    .clothing-item img {
+        width: 300px;
+    }
 }
 
 /* Celular */
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
+
+    .logo {
+        height: 50%;
+    }
     
+    .shopping-bag-icon {
+        height: 20px;
+    }
+
+    .menu-icon {
+        height: 20px;
+    }
+
     .hero-info {
         width: 100%;
         display: flex;
@@ -220,17 +236,66 @@
     }
 
     .hero-info h1 {
-        font-size: 25px;
-        margin-left: 110px;
+        font-size: 22px;
+        margin-left: 120px;
+        padding: 0px 10px;
+        align-items: center;
     }
 
     .product-title h2,
     .about-info h2,
     .contact-info h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .clothing-item img {
-        width: 300px;
+        width: 290px;
+    }
+
+    .form label {
+        font-size: 16px;
+    }
+}
+
+/* Celular */ 
+
+@media (max-width: 320px) {
+
+    header {
+        padding: 0px 15px;
+    }
+
+    .hero-button {
+        width: 90px;
+    }
+
+    .clothing-item img {
+        width: 270px;
+    }
+
+    .clothing-item-title h3 {
+        font-size: 16px;
+    }
+
+    .clothing-item-price span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .about-info p {
+        font-size: 15px;
+    }
+
+    .newsletter-container h3 {
+        font-size: 16px;
+    }
+
+    .newsletter-container p {
+        font-size: 12px;
+    }
+
+    footer span {
+        font-size: 13px;
     }
 }
