@@ -47,6 +47,7 @@
     }
 
     #newsletter {
+        width: 90%;
         padding: 40px 0px;
         margin: 10px 0px 0px 10px;
         gap: 10px;
@@ -70,6 +71,7 @@
     }
 
     #contact {
+       width: 90%;
        margin-right: 3rem;
     }
 
