@@ -12,7 +12,9 @@
 }
 
 body {
-    margin: auto 0;}
+    margin: auto 0;
+    overflow-x: hidden;
+}
 
 /* Header */
 
