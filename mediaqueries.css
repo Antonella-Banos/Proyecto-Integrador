@@ -1,5 +1,5 @@
 /* Small desktop */
-
+/* 
 @media (max-width: 1115px) {
 
     .navbar {
@@ -41,7 +41,7 @@
     .products-container {
         /* margin-right: 3rem; */
     }
-
+/* 
     .about-info {
         margin-right: 3rem;
     }
@@ -129,7 +129,7 @@
     .contact-map iframe {
         width: 80%;
     }
-}
+} */
 
 /* Tablet */
 
@@ -356,4 +356,4 @@
     footer span {
         font-size: 13px;
     }
-}
+} */
