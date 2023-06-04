@@ -267,17 +267,18 @@ main {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 50%;
+    width: 80%;
 }
 
 .newsletter-container h3 {
     font-size: 28px;
-    width: 70%;
-    min-width: 500px;
+    width: 40%;
+    min-width: 300px;
     text-shadow: 1px 1px 2px #2d2d2d;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .newsletter-container p {
@@ -343,8 +344,6 @@ main {
 
 .contact-info h3 {
     font-size: 28px;
-    width: 70%;
-    min-width: 500px;
     text-shadow: 1px 1px 2px #2d2d2d;
     display: flex;
     justify-content: center;
@@ -397,7 +396,7 @@ main {
     text-shadow: 1px 1px 2px #2d2d2d;
 }
 
-
+/* Footer */
 
 footer {
     background: linear-gradient(to top, #dfa1a1, #f19c93);

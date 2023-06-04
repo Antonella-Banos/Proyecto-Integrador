@@ -97,179 +97,173 @@
     .contact-map {
         margin-top: 70px;
     }
-} */
+
+    .contact-map iframe {
+        width: 90%;
+    }
+} 
 
    
 /* Tablet */
 
-@media (max-width: 780px) {
+@media (max-width: 526px) {
 
-    #newsletter {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+    #products {
+       width: 90%;
     }
 
-    #contact {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contact-map {
-        display: none;
-    }
-
-    .form-box {
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    
-    }
-} */
-
-/* Celular */
-
-@media (max-width: 570px) {
-
-    .logo {
-        height: 60%;
-    }
-
-    .shopping-bag-icon, 
-    .menu-icon {
-        height: 30px;
-        font-weight: 300;
+    .clothing-item {
+        width: 80%;
     }
 
     .clothing-item img {
-        width: 400px;
+        width: 90%;
     }
 
-    .form-box h3 {
-        font-size: 25px;
-    }
-
-    .form label {
-        font-size: 16px;
-    }
-}
-
-/* Celular */
-
-@media (max-width: 470px) {
-
-    .hero-info h1 {
-        margin-left: 20px;
+    .form input {
+       width: 300px;
     }
 
     .form-box {
-        width: 300px;
-        height: 400px;
+        width: 400px;
     }
-    
+}
+
+/* Tablet */
+
+@media (max-width: 450px) {
+
+    .logo {
+        height: 50%;
+    }
+
+    .navbar {
+        gap: none;
+    }
+
+    .shopping-bag-icon {
+        margin-right: 0.5rem;
+    }
+
+    #hero,
+    #products,
+    #about {
+        width: 80%;
+    }
+
+    .clothing-item {
+        width: 100%;
+    }
+
+    .product-title h2,
+    .about-info h2,
+    .newsletter-container h3,
+    .contact-info h3,
+    .contact-map h3 {
+        font-size: 30px;
+    }
+
     .form label {
         font-size: 18px;
     }
 
     .form input {
-        height: 30px;
-        width: 200px;
+        height: 40px;
+        width: 230px;
     }
 
-    .clothing-item img {
+    .contact-info,
+    .contact-map {
+        width: 80%;
+    }
+
+    #registro, 
+    #login {
+        width: 80%;
+    }
+
+    .form-box {
         width: 300px;
+    }
+    
+
+}  
+
+/* Celular */
+
+@media (max-width: 360px) {
+
+    .clothing-item img {
+        width: 100%;
+    }
+
+    .about-info p {
+        width: 80%;
+    }
+
+    .newsletter-container h3 {
+       min-width: unset;
+       width: 80%;
+       padding: 0px 20px;
+
+    }
+
+    .form-box {
+        width: 270px;
+        height: 350px;
+    }
+
+    .form {
+        gap: 8px;
+    }
+
+    .form-box h3,
+    .form label {
+        font-size: 15px;
+    }
+
+    .form input {
+        height: 35px;
+        width: 210px;
+    }
+
+    footer span {
+        font-size: 12px;
     }
 }
 
 /* Celular */
 
-@media (max-width: 430px) {
-
-    .logo {
-        height: 50%;
-    }
-    
-    .shopping-bag-icon {
-        height: 20px;
-    }
-
-    .menu-icon {
-        height: 20px;
-    }
-
-    .hero-info {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-info h1 {
-        font-size: 22px;
-        margin-left: 120px;
-        padding: 0px 10px;
-        align-items: center;
-    }
-
-    .product-title h2,
-    .about-info h2,
-    .contact-info h3 {
-        font-size: 20px;
-    }
-
-    .clothing-item img {
-        width: 290px;
-    }
-
-    .form label {
-        font-size: 16px;
-    }
-}
-
-/* Celular */ 
-
 @media (max-width: 320px) {
 
-    header {
-        padding: 0px 15px;
+    #hero, #products, #about {
+        width: 90%;
     }
 
-    .hero-button {
-        width: 90px;
-    }
-
-    .clothing-item img {
-        width: 270px;
-    }
-
-    .clothing-item-title h3 {
-        font-size: 16px;
-    }
-
-    .clothing-item-price span {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
+    .clothing-item-title h3,
+    .clothing-item-price {
+        font-size: small;
     }
 
     .about-info p {
-        font-size: 15px;
-    }
-
-    .newsletter-container h3 {
         font-size: 16px;
+        width: 90%;
     }
 
-    .newsletter-container p {
-        font-size: 12px;
+    .about-info p:nth-child(3) {
+        padding: 0px 20px;
     }
 
-    .contact-map iframe {
+    .form {
+        width: 90%;
+    }
+
+    #contact {
+        padding-bottom: 40px;
+    }
+
+    .contact-map {
         display: none;
     }
+}
 
-    footer span {
-        font-size: 13px;
-    }
-} */
