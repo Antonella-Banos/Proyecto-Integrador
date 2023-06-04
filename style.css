@@ -9,12 +9,11 @@
     list-style-type: none;
     scroll-behavior: smooth;
     scroll-padding-top: 65px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 body {
     margin: auto 0;
-    overflow-x: hidden;
 }
 
 /* Header */
@@ -426,7 +425,7 @@ footer span > b {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
     gap: 10px;
 }
 
@@ -439,8 +438,8 @@ footer span > b {
     height: 400px;
     background: whitesmoke;
     border: 1px solid #f19c93;
+    border-radius: 1rem;
     gap: 20px;
-    margin-left: 300px;
 }
 
 .form-box h3 {
@@ -461,7 +460,7 @@ footer span > b {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
     gap: 10px;
 }
 
