@@ -2,95 +2,10 @@
 
 @media (max-width: 992px) {
 
-    .navbar {
-       display: flex;
-       align-items: center;
-       gap: 220px;
-    }
-
-    .navbar-list a {
-       font-size: 13px;
-       gap: 80px;
-    }
-
-    .navbar-list a:nth-child(6) 
-
-    .navbar-list {
-        display: flex;
-        align-items: center;
-        margin-left: 7rem;
-    }
-
-    .logo {
-        padding-right: 5.8rem;
-    }
-
-    .hero-info h1 {
-        font-size: 35px;
-    }
-
-    .hero-info p,
-    .hero-button {
-        margin-right: 3rem;
-    }
-    
-    .product-title {
-        margin-right: 6rem;
-    }
-
-    .products-container {
-        /* margin-right: 3rem; */
-    }
-/* 
-    .about-info {
-        margin-right: 3rem;
-    }
-
-    #newsletter {
-        width: 90%;
-        padding: 40px 0px;
-        margin: 10px 0px 0px 10px;
-        gap: 10px;
-    }
-
-    .newsletter-container {
-        margin-right: 3.5rem;
-        width: 45%;
-    }
-
-    .newsletter-container p {
-        margin-left: 3rem;
-    }
-
-    .form {
-        width: 40%;
-    }
-
-    .form input {
-        width: 300px;
-    }
-
-    #contact {
-       width: 90%;
-       margin-right: 3rem;
-    }
-
-    .contact-info {
-        width: 45%;
-    }
-
-    .contact-map {
-        width: 45%;
-    }
-}
-
-/* Tablet */
-
-
-@media (max-width: 1100px) {
+    /* Header */
 
     .navbar {
-        gap: 10px;
+        gap: 5px;
     }
     
     .navbar-list {
@@ -111,10 +26,17 @@
        display: none;
     }
 
+    /* Menú */
+
     .menu-label {
         display: flex;
         order: 2;
         cursor: pointer;
+    }
+
+    .shopping-bag-icon {
+        height: 25px;
+        width: 25px;
     }
 
     #menu-toggle:checked + 
@@ -122,75 +44,65 @@
         display: flex;
     }
 
-    .form {
-        width: 30%;
+    /* Hero */
+
+    #hero {
+        margin-top: 100px;
     }
 
-    .contact-map iframe {
-        width: 80%;
+    .hero-card {
+        display: none;
     }
-} */
 
-/* Tablet */
-
-@media (max-width: 992px) {
+    .hero-info {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
 
     .hero-info h1 {
-        width: 30%;
-        font-size: 30px;
-        min-width: 400px;
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+        font-size: 35px;
     }
 
-    .hero-card img {
-        width: 350px;
-    }
-
-    .products-container {
-        gap: 10px;
-    }
-
-    .clothing-item img {
-        width: 200px;
-    }
-
-    .clothing-item-title h3 {
+    .hero-info p {
         font-size: 18px;
     }
 
+    /* Newsletter */
+    
+    #newsletter {
+        flex-wrap: wrap;
+    }
+
     .newsletter-container {
-        width: 45%;
-        text-align: center;
-        justify-content: center;
-        margin-right: 50px;
+        gap: 30px;
+        margin-bottom: 30px;
     }
 
-    .newsletter-container h3 {
-        font-size: 20px;
+    /* Contact */
+
+    #contact {
+        flex-direction: column;
     }
 
-    .newsletter-container p {
-        align-items: center;
-        font-size: 14px;
+    .contact-info {
+        margin-bottom: 70px;
     }
 
-    .form input {
-        height: 25px;
-        width: 300px;
+    .contact-map {
+        margin-top: 70px;
     }
+} */
 
-    .form-box {
-        width: 400px;
-        height: 350px;
-    }
-}
-
+   
 /* Tablet */
 
 @media (max-width: 780px) {
-
-    .hero-card img {
-        display: none;
-    }
 
     #newsletter {
         flex-direction: column;
@@ -212,9 +124,9 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-right: 150px;
+    
     }
-}
+} */
 
 /* Celular */
 
@@ -351,6 +263,10 @@
 
     .newsletter-container p {
         font-size: 12px;
+    }
+
+    .contact-map iframe {
+        display: none;
     }
 
     footer span {
