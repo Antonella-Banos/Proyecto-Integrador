@@ -108,6 +108,8 @@
 
 @media (max-width: 526px) {
 
+    /* Products */
+
     #products {
        width: 90%;
     }
@@ -119,6 +121,8 @@
     .clothing-item img {
         width: 90%;
     }
+
+    /* Login/Registro */
 
     .form input {
        width: 300px;
@@ -133,6 +137,8 @@
 
 @media (max-width: 450px) {
 
+    /* Header */
+
     .logo {
         height: 50%;
     }
@@ -145,11 +151,15 @@
         margin-right: 0.5rem;
     }
 
+    /* Sections */
+
     #hero,
     #products,
     #about {
         width: 80%;
     }
+
+    /* Products */
 
     .clothing-item {
         width: 100%;
@@ -163,6 +173,8 @@
         font-size: 30px;
     }
 
+    /* Form */
+
     .form label {
         font-size: 18px;
     }
@@ -172,10 +184,14 @@
         width: 230px;
     }
 
+    /* Contact */
+
     .contact-info,
     .contact-map {
         width: 80%;
     }
+
+    /* Login/Registro */
 
     #registro, 
     #login {
@@ -186,20 +202,25 @@
         width: 300px;
     }
     
-
 }  
 
 /* Celular */
 
 @media (max-width: 360px) {
 
+    /* Products */
+
     .clothing-item img {
         width: 100%;
     }
 
+    /* About section */
+
     .about-info p {
         width: 80%;
     }
+
+    /* Newsletter section */
 
     .newsletter-container h3 {
        min-width: unset;
@@ -207,6 +228,8 @@
        padding: 0px 20px;
 
     }
+
+    /* Login/Registro */
 
     .form-box {
         width: 270px;
@@ -227,6 +250,8 @@
         width: 210px;
     }
 
+    /* Footer */
+
     footer span {
         font-size: 12px;
     }
@@ -236,14 +261,26 @@
 
 @media (max-width: 320px) {
 
+    /* Header */
+
+    header {
+        padding: 0px 20px;
+    }
+
+    /* Sections */
+
     #hero, #products, #about {
         width: 90%;
     }
+
+    /* Products */
 
     .clothing-item-title h3,
     .clothing-item-price {
         font-size: small;
     }
+
+    /* About */
 
     .about-info p {
         font-size: 16px;
@@ -254,10 +291,14 @@
         padding: 0px 20px;
     }
 
+    /* Form */
+
     .form {
         width: 90%;
     }
 
+    /* Contact */
+    
     #contact {
         padding-bottom: 40px;
     }
